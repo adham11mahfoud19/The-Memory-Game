@@ -1,0 +1,672 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-family: cursive;
+    -moz-font-family: cursive;
+    -o-font-family: cursive;
+    -ms-font-family: cursive;
+    @font-face {
+        font-family: cursive;
+        src: url();
+    }
+  
+}
+body {
+    font-family: "work sans", sans-serif;
+    background-color: #0e0e0e;
+}
+
+/* Start Header  */
+header .container {
+    width: 96%;
+    height: 84px;
+    background-color: black;
+    display: flex;
+    border-radius: 6px;
+    margin-top: 8px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2%;
+    box-shadow: 1px 1px 5px 1px darkslategrey; ;
+}
+
+header .container .logo {
+    font-size: 40px;
+    color: #df4507;
+    -webkit-font-size :40px;
+}
+
+
+header .container .social-media {
+    color: whitesmoke;
+    font-size: 22px;
+}
+header .container .links a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: revert;
+    font-weight: 800;
+    background-color: #df4507;
+    color: black;
+    padding: 8px;
+    border-radius: 11px;
+    letter-spacing: -1px;
+    width: calc(441.52px / 3);
+    display: inline-block;
+    text-align: center;
+}
+header .container .links a:hover {
+    background-color: white;
+    color: black;
+    translate: 0 11px;
+    transition: 0.3s;
+
+}
+.icons {
+    color: #df4507;
+    margin-left: 3px;
+}
+.fa-facebook-official:hover {
+    color: blue;
+    translate: 0 -4px;
+    transition: 0.3s;
+}
+.fa-whatsapp:hover {
+    color: green;
+    translate: 0 -4px;
+    transition: 0.3s;
+}
+.fa-instagram:hover {
+    color: #ca3bb1;
+    translate: 0 -4px;
+    transition: 0.3s;
+}
+.fa-microphone {
+    animation-name: miky;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
+}
+@keyframes miky{
+
+    50% {
+        color: wheat;
+        translate: -4px;
+    }
+    100% {
+        color: #df4507;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container .links a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: revert;
+        font-weight: 800;
+        background-color: #df4507;
+        color: black;
+        padding: 8px;
+        border-radius: 11px;
+        letter-spacing: -1px;
+        width: calc(358.52px / 3);
+        display: inline-block;
+        text-align: center;
+        flex-wrap: wrap;
+        display: flex;
+        height: 27px;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header .container .links a {
+        text-decoration: none;
+        font-size: 10px;
+        font-family: revert;
+        font-weight: 800;
+        padding: 8px;
+        border-radius: 11px;
+        letter-spacing: -1px;
+        width: calc(242.52px / 3);
+        text-align: center;
+        display: table-cell;
+        height: 26px;
+    }
+    header .container {
+        width: 96%;
+        height: 84px;
+        background-color: black;
+        display: flex;
+        border-radius: 12px;
+        margin-top: 8px;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 2%;
+    }
+    header .container .social-media {
+        color: whitesmoke;
+        font-size: 13px;
+        width: 27px;
+    }
+    header .container .logo {
+        font-size: 26px;
+        color: #df4507;
+        margin-left: 6px;
+    }
+
+}
+/* End Header   */
+
+/* Start Section   */
+
+/* Start the First  */
+section .container .first {
+    background-color: white;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px 0 20px 1%;
+    animation-name: first-opt;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    box-shadow: 2px 2px 5px 5px rosybrown;
+}
+section .container .first h1 {
+    color: #464748;
+    text-align: center;
+    opacity: 0.8;
+    animation-duration: 8s;
+    animation-name: h1-opt;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+section .container .first h1 .rap {
+    color: black;
+    animation-duration: 8s;
+    animation-name: rap-opt;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+section .container .first h1 .house {
+    color: #df4507;
+    animation-duration: 8s;
+    animation-name: house-opt;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+section .container .first p {
+    color: #464748;
+    font-family: cursive;
+    display: flex;
+    justify-content: flex-start;
+    animation-duration: 8s;
+    animation-name: amazing;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+                -webkit-font-family: cursive;
+        -moz-font-family:cursive;
+        -o-font-family:cursive;
+        -ms-font-family:cursive;
+}
+@keyframes amazing {
+    40% {
+        justify-content: center;
+    }
+    60% {
+        justify-content: flex-end;
+    }
+}
+
+@keyframes first-opt {
+    50% {
+        background-color: #df4507;
+    }
+    100% {
+        background-color: white;
+    }
+    
+
+} @keyframes rap-opt {
+    50% {
+        color:white;
+    }
+    100% {
+        color: black;
+    }
+}
+@keyframes house-opt {
+    50% {
+        color:black
+    }
+    100% {
+        color: #df4507;
+    }
+}
+@keyframes h1-opt {
+    50% {
+        color: #df4507;
+    }
+    100% {
+        color: #464748;
+    }
+}
+
+/* End of The First  */
+
+/* ٍStart of News */
+.news-section {
+    height: 100%;
+    background-color: white;
+    width: 94%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 45% 45%;
+    grid-template-areas:
+        "news news news"
+        "templates templates templates";
+    row-gap: 6px;
+    column-gap: 3px;
+    border-radius: 15px;
+    overflow: auto;
+    box-shadow: 1537px 27px 50px black inset;
+
+}
+.news-section h2 {
+    grid-area: news;
+    justify-content: center;
+    display: grid;
+    color: white;
+    background-color: #df4507;
+    margin: 4px 0 0 0;
+    border-radius: 100px;
+    line-height: 48px;
+}
+
+
+.news-section .three-template {
+    grid-area: templates;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "temp1 temp2 temp3";
+
+
+}
+.news-section .three-template .temp1{
+    grid-area: temp1; 
+    height: 90%;
+
+}
+.news-section .three-template .temp2{
+    grid-area: temp2;
+    height: 90%;
+
+}
+.news-section .three-template .temp3 {
+    grid-area: temp3;
+    height: 90%;
+    margin-right: 1px;
+
+
+}
+.images-one {
+
+    height: 90%;
+    width: 95%;
+    border: 1px solid black;
+    margin-left: 8px;
+    border-radius: 24px;
+    box-shadow: 30px 28px 100px 25px sandybrown;
+
+
+
+}
+.three-template .cap {
+    color: black;
+    margin: 0 4px 18px 3px;
+    background-color: #df4507;
+    border-radius: 14px;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: 600;
+    border: 2px solid black;
+    box-shadow: 10px 10px 100px black;
+            -webkit-font-family: cursive;
+        -moz-font-family:cursive;
+        -o-font-family:cursive;
+        -ms-font-family:cursive;
+    
+/*                 -webkit-font-weight: cursive;
+        -moz-font-weight:cursive;
+        -o-font-weight:cursive;
+        -ms-font-weight:cursive; */
+    
+}
+
+.more {
+    text-decoration: none;
+    color: #df4507;
+    background-color: black;
+    margin: 0;
+    line-height: 3px;
+}
+/* End Of News Section */
+
+/* Start videos Section */
+.vid {
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "hh hh hh"
+        "emi nf kas";
+    /* background-image: url(../images/tupac.jpg); */
+    background-size: cover;
+    filter: hue-rotate(732deg);
+    width: 94%;
+    margin-left: 3%;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 25px;
+    background-color: #0e0e0e;
+    box-shadow: 8px -6px 50px 12px inset;
+}
+.vid h2 {
+    grid-area: hh;
+    color: #d05430;
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 25%;
+    height: 80%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+/* 
+    grid-area: hh;
+    color: white;
+    background-color: #df4507;
+    text-align: center;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 25%;
+    height: 80%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 47px 250px 195px 110px antiquewhite;
+} */
+.vid .emi {
+    grid-area: emi;
+    display: grid;
+}
+.vid .nf {
+    grid-area: nf;
+    display: grid;
+}
+.vid .kasar {
+    grid-area: kas;
+    display: grid;
+}
+.vid video {
+    height: 92%;
+    width: calc(80%);
+    padding: 10px;
+    border-radius: 80px;
+    margin: 4% 0 0 10%;
+}
+
+    
+/* .vid .emi {
+    content: "";
+    
+    border-width: 2px;
+    border-color: transparent #df4507 transparent transparent;
+    border-style: solid;
+    background-color: red;
+
+} */
+/* .vid .emi::before {
+    content: "";
+    border-width: 2px;
+    border-color: transparent transparent black transparent;
+    border-style: solid;
+    background-color: black;
+    margin-top: 80px;
+    border-radius: 12px;
+    width: 90%;
+    margin-left: 5%;
+} */
+
+
+/* .vid .nf::after {
+    content: "";
+    
+    border-width: 2px;
+    border-color: transparent #df4507 transparent transparent;
+    border-style: solid;
+    background-color: red;
+    border-radius: 9px;
+
+} */
+.cpt-vid {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: revert;
+    text-shadow: 0px 1px 16px #df4507;
+    margin-top: 15%;
+    margin-left: 4px;
+}
+@media (max-width: 768px) {
+    .vid {
+
+        grid-template-areas:
+            "hh hh hh"
+            "emi emi emi"
+            "nf nf nf"
+            "kas kas kas";
+    }
+    .cpt-vid {
+        color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: revert;
+    text-shadow: 0px 1px 16px #df4507;
+    margin-top: 15%;
+    margin-left: 4px;
+    }
+    .news-section .three-template .temp1 {
+        
+        height: 120%;
+    }
+    .news-section .three-template {
+        display: block;
+    }
+    .news-section h2 {
+        grid-area: news;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        color: white;
+        background-color: #df4507;
+        margin: 4% 0 0 0;
+        border-radius: 100px;
+        height: 79px;
+    }
+
+    
+
+}
+/* End videos section */
+
+/* Start Spoty Section */
+.spoty {
+    display: grid;
+    grid-template-rows: 10% 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "sp sp sp"
+        "spot1 spot2 spot3"
+        "spot4 spot5 spot6"
+        "spot7 spot8 spot9";
+    width: 94%;
+    height: 100vw;
+    margin-left: 3%;
+    background-color: black;
+    margin-top: 40px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0px 1px 8px 0px white inset;
+}
+.spoty .sp {
+    grid-area: sp;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: #df4507;
+    text-shadow: 2px 3px 22px wheat;
+    font-weight: 800;
+    font-family: cursive;
+                -webkit-font-family: cursive;
+        -moz-font-family:cursive;
+        -o-font-family:cursive;
+        -ms-font-family:cursive;
+}
+.spoty .spoty1 {
+    grid-area: spot1;
+    background-image: url(../images/Spoty/Spoty1.jpeg);
+    background-size:100% 100%;
+}
+.spoty .spoty2 {
+    grid-area: spot2;
+    background-image: url(../images/Spoty/Spoty2.jpeg);
+    background-size:100% 100%;
+}
+.spoty .spoty3 {
+    grid-area: spot3;
+    background-image: url(../images/Spoty/Spoty3.jpeg);
+    background-size:100% 100%;
+}
+.spoty .spoty4 {
+    grid-area: spot4;
+    background-image: url(../images/Spoty/Spoty4.jpeg);
+    background-size:100% 100%;
+}
+.spoty .spoty5 {
+    grid-area: spot5;
+    background-image: url(../images/Spoty/Spoty5.jpeg);
+    background-size:100% 100%;
+}
+.spoty .spoty6 {
+    grid-area: spot6;
+    background-image: url(../images/Spoty/Spoty6.jpeg);
+    background-size:100% 100%;
+}
+.spoty .spoty7 {
+    grid-area: spot7;
+    background-image: url(../images/Spoty/Spoty7.jpeg);
+    background-size:100% 100%;
+}
+.spoty .spoty8 {
+    grid-area: spot8;
+    background-image: url(../images/Spoty/Spoty8.jpeg);
+    background-size:100% 100%;
+}
+.spoty .spoty9 {
+    grid-area: spot9;
+    background-image: url(../images/Spoty/Spoty9.jpeg);
+    background-size:100% 100%;
+}
+
+.spoty1,
+.spoty2,
+.spoty3, 
+.spoty4,
+.spoty5,
+.spoty6, 
+.spoty7,
+.spoty8,
+.spoty9 {
+    border-radius: 5px;
+    border: 1px solid black;
+    filter: blur(8px);
+}
+.fact:hover {
+    filter: none;
+    transition: 0.2s;
+    margin: 0 0 5px 0;
+}
+.fa-spotify,
+.gr {
+    color: green;
+}
+.from {
+    color: white;
+}
+/* End of Spoty Section */
+/* End of section */
+/* Start footer   */
+footer .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90% 10%;
+    grid-template-areas:
+        "rap-house"
+        "footer";
+}
+footer .container .rap-house {
+    grid-area: rap-house;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 12vw;
+    opacity: 0.3;
+    color: #df4507;
+    text-shadow: 2px 2px 10px white;
+    font-family: cursive;
+                -webkit-font-family: cursive;
+        -moz-font-family:cursive;
+        -o-font-family:cursive;
+        -ms-font-family:cursive;
+    animation-name: rappy;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rappy{
+    50% {
+        text-shadow: 2px 2px 10px palevioletred;
+    }
+    100% {
+        text-shadow: 2px 2px 10px white;
+    }
+}
+footer .container .copy {
+    grid-area: footer;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #e0e0;
+    color: #df4507;
+    font-family: fantasy;
+}
+@media (max-width:768px) {
+    .spoty {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
