@@ -40,7 +40,7 @@ function flipblock(selectedBlock) {
 
           stopClicking()
           checkMatchedBlocks(allFlippedBlocks[0], allFlippedBlocks[1])
-    }
+    };
     function stopClicking() {
         blocksContainer.classList.add('stop-clicking')
 
