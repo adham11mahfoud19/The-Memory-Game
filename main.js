@@ -6,7 +6,7 @@ document.querySelector(".control-buttons span").onclick = function () {
   } else {
     console.log(theName);
     document.querySelector(".info-container .name span").innerHTML = theName;
-  }
+  };
   this.parentElement.remove()
 };
 
