@@ -6,7 +6,7 @@ document.querySelector(".control-buttons span").onclick = function () {
   } else {
     console.log(theName);
     document.querySelector(".info-container .name span").innerHTML = theName;
-  }
+  };
   this.parentElement.remove()
 };
 
@@ -40,7 +40,7 @@ function flipblock(selectedBlock) {
 
           stopClicking()
           checkMatchedBlocks(allFlippedBlocks[0], allFlippedBlocks[1])
-    }
+    };
     function stopClicking() {
         blocksContainer.classList.add('stop-clicking')
 
