@@ -59,11 +59,15 @@ function checkMatchedBlocks(first, second) {
     document.getElementById("myDGOAT").play()
     first.classList.add(`matched`)
     second.classList.add(`matched`)
+  const audio = new Audio('success.mp3');
+    audio.play();
     console.log("correct")
   } else {
       setTimeout(() => {
         first.classList.remove(`is-flipped`)
         second.classList.remove(`is-flipped`)
+          const audio = new Audio('fail.mp3');
+    audio.play();
             console.log("wrong")
 
       },duration)
