@@ -59,10 +59,13 @@ function checkMatchedBlocks(first, second) {
     document.getElementById("myDGOAT").play()
     first.classList.add(`matched`)
     second.classList.add(`matched`)
+    console.log("correct")
   } else {
       setTimeout(() => {
         first.classList.remove(`is-flipped`)
         second.classList.remove(`is-flipped`)
+            console.log("wrong")
+
       },duration)
     worngCounter.innerHTML = parseInt(worngCounter.innerHTML) + 1;
     document.getElementById("myHAA").play()
